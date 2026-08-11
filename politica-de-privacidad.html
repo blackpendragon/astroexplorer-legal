@@ -25,7 +25,7 @@
 <div class="container">
 
   <h1>Política de Privacidad</h1>
-  <p class="subtitle">AstroExplorer — astroexplorer.app<br>Última actualización: 10 de agosto de 2026</p>
+  <p class="subtitle">AstroExplorer — astroexplorer.app<br>Última actualización: 11 de agosto de 2026</p>
 
   <div class="highlight">
     <p>Esta Política de Privacidad describe cómo AstroExplorer ("nosotros", "nos" o "nuestro") recopila, usa, almacena y protege tu información personal cuando utilizas nuestra aplicación móvil AstroExplorer (la "App"). Al usar la App, aceptás los términos de esta Política.</p>
@@ -40,26 +40,31 @@
   <ul>
     <li>Nombre de usuario y nombre para mostrar</li>
     <li>Dirección de correo electrónico</li>
+    <li>Fecha de nacimiento (para verificación de edad)</li>
     <li>Foto de perfil (opcional)</li>
-    <li>Contraseña (almacenada de forma encriptada)</li>
+    <li>Contraseña (protegida mediante hash criptográfico, nunca almacenada en texto plano)</li>
     <li>Contenido que publicás: fotos, videos, textos, reseñas, historias y notas de voz</li>
     <li>Mensajes directos entre usuarios</li>
+    <li><strong>Datos de verificación comercial:</strong> si reclamás la titularidad de un perfil de comercio, podremos solicitarte documentación adicional (como identificaciones, comprobantes fiscales, facturas de servicios o fotos del local) para validar tu identidad y la titularidad del negocio. Estos datos se utilizan exclusivamente para el proceso de verificación y no se comparten con terceros.</li>
   </ul>
 
   <h3>2.2 Información que recopilamos automáticamente</h3>
   <ul>
     <li><strong>Ubicación GPS:</strong> recopilamos tu ubicación en tiempo real cuando usás el mapa y las funciones de exploración. Esta información es esencial para el funcionamiento de la App.</li>
-    <li><strong>Datos del dispositivo:</strong> modelo del dispositivo, fabricante, sistema operativo y versión, idioma y región configurados, zona horaria, resolución de pantalla, identificadores únicos del dispositivo (Android ID), versión de la App instalada.</li>
+    <li><strong>Datos del dispositivo:</strong> modelo del dispositivo, fabricante, sistema operativo y versión, idioma y región configurados, zona horaria, resolución de pantalla, identificadores únicos del dispositivo (Android ID), versión de la App instalada, token de registro de notificaciones push (FCM) y señales de verificación de integridad del dispositivo (por ejemplo, Google Play Integrity) utilizadas para prevenir fraude y automatización.</li>
     <li><strong>Datos de red:</strong> dirección IP, tipo de conexión (WiFi/datos móviles), nombre del operador de telefonía (solo para diagnóstico de errores, no almacenado permanentemente).</li>
     <li><strong>Cámara y micrófono:</strong> solo accedemos a la cámara y el micrófono cuando vos lo activás explícitamente (al crear una historia, grabar un video o enviar una nota de voz). No grabamos sin tu acción activa.</li>
-    <li><strong>Almacenamiento:</strong> accedemos a las fotos y videos que seleccionás para publicar. No escaneamos ni indexamos todo tu almacenamiento.</li>
+    <li><strong>Almacenamiento — fotos y videos:</strong> accedemos a las fotos y videos que seleccionás para publicar. No escaneamos ni indexamos todo tu almacenamiento.</li>
+    <li><strong>Archivos de audio / Música:</strong> si utilizás el reproductor de música integrado, la App solicitará permiso para acceder a los archivos de audio locales de tu dispositivo (permiso <code>READ_MEDIA_AUDIO</code> en Android). La App solo reproduce estos archivos localmente. <strong>No subimos, almacenamos, copiamos ni compartimos tu música o archivos de audio en nuestros servidores ni con terceros.</strong> Solo accedemos a los metadatos (nombre, artista, duración, álbum) para mostrarlos en la interfaz del reproductor.</li>
+    <li><strong>Metadatos EXIF de fotos:</strong> las fotos tomadas con tu cámara pueden contener metadatos incrustados (datos EXIF) que incluyen la ubicación GPS exacta, fecha, hora y modelo del dispositivo donde se tomó la foto. Al publicar fotos en AstroExplorer, <strong>eliminamos automáticamente los metadatos EXIF sensibles (incluida la ubicación GPS)</strong> durante el procesamiento de la imagen, de modo que no queden incrustados en el archivo publicado. Tené en cuenta que el contenido visual en sí (por ejemplo, la fachada de tu casa) y la etiqueta de lugar que elijas agregar voluntariamente sí pueden revelar una ubicación: publicá con criterio.</li>
+    <li><strong>Historial de ubicación para misiones:</strong> no almacenamos un historial continuo de tu ruta GPS. Sin embargo, cuando completás una misión, realizás una reseña o publicás contenido desde un lugar específico, registramos ese evento de ubicación puntual en tu perfil para otorgarte XP y mostrar tu progreso. Este registro es de eventos específicos, no de rutas continuas.</li>
     <li><strong>Datos de uso:</strong> cómo interactuás con la App, qué pantallas visitás, qué funciones usás, frecuencia y duración de uso, posts con los que interactuás (likes, comentarios, vistas).</li>
     <li><strong>Datos de rendimiento:</strong> logs de errores y fallos de la App para diagnóstico técnico. No contienen contenido personal.</li>
   </ul>
   <p><strong>Lo que NO recopilamos:</strong> contactos del teléfono, historial de llamadas, SMS, historial de navegación web, apps instaladas, datos del portapapeles ni datos de otras apps.</p>
 
   <h3>2.3 Información de terceros</h3>
-  <p>Si iniciás sesión con Google, recibimos tu nombre, dirección de correo electrónico y foto de perfil según los permisos que otorguéss.</p>
+  <p>Si iniciás sesión con Google, recibimos tu nombre, dirección de correo electrónico y foto de perfil según los permisos que otorgues.</p>
 
   <h2>3. Cómo usamos tu información</h2>
   <ul>
@@ -70,12 +75,14 @@
     <li>Enviar notificaciones push sobre actividad relevante para vos</li>
     <li>Mostrar publicidad a través de Google AdMob</li>
     <li>Calcular tu XP, rango y progresión en misiones</li>
-    <li>Garantizar la seguridad y prevenir el abuso</li>
+    <li>Garantizar la seguridad y prevenir el abuso, incluyendo la verificación de integridad del dispositivo y la detección de ubicación falsificada o automatización (fair play)</li>
     <li>Cumplir obligaciones legales</li>
   </ul>
 
   <h2>4. Publicidad (Google AdMob)</h2>
   <p>Utilizamos Google AdMob para mostrar anuncios. AdMob puede usar identificadores del dispositivo y datos de comportamiento para mostrarte publicidad personalizada. Podés optar por no recibir publicidad personalizada en la configuración de tu dispositivo.</p>
+  <p><strong>Consentimiento publicitario:</strong> en las regiones donde la ley lo exige (como el Espacio Económico Europeo, el Reino Unido y Suiza), antes de mostrar publicidad personalizada verás un formulario de consentimiento (Google User Messaging Platform) donde podés aceptar, rechazar o gestionar el uso de tus datos con fines publicitarios. Si no otorgás tu consentimiento, se mostrarán anuncios no personalizados o limitados. Podés cambiar tu decisión en cualquier momento desde las opciones de privacidad de la App.</p>
+  <p>Para la publicidad se utiliza el <strong>identificador de publicidad de tu dispositivo (Advertising ID)</strong>, que podés restablecer o eliminar en cualquier momento desde la configuración de Android.</p>
   <p>Para más información sobre cómo Google usa los datos: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></p>
 
   <h2>5. Compartir información con terceros</h2>
@@ -87,15 +94,20 @@
     <li><strong>Autoridades competentes:</strong> cuando sea requerido por ley, orden judicial u obligación legal.</li>
   </ul>
 
+  <h3>SDKs y herramientas de desarrollo de terceros</h3>
+  <p>Para la prestación de nuestros servicios, la App integra kits de desarrollo de software (SDKs) y APIs de proveedores de confianza, incluyendo Google Firebase, Google Maps Platform y Google AdMob. Estos módulos de código pueden recopilar identificadores técnicos del dispositivo con fines exclusivamente analíticos, de diagnóstico de fallos y de personalización de anuncios. AstroExplorer trabaja únicamente con proveedores que se comprometen contractualmente a cumplir estándares globales de privacidad (incluyendo acuerdos de procesamiento de datos y Cláusulas Contractuales Estándar) y no autoriza el uso de estos datos para fines distintos de los descritos en esta Política.</p>
+  <p>Para más información sobre las prácticas de privacidad de Google: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></p>
+
   <h2>6. Retención de datos</h2>
   <p>Conservamos tu información según los siguientes períodos, salvo que la ley nos exija conservarlos por más tiempo:</p>
   <ul>
     <li><strong>Datos de cuenta (nombre, email, foto de perfil):</strong> durante toda la vigencia de la cuenta + 30 días tras la eliminación.</li>
-    <li><strong>Contenido publicado (fotos, videos, posts, reseñas, historias):</strong> hasta que el usuario lo elimine o elimine su cuenta. El contenido público puede permanecer en forma anónima hasta 30 días adicionales por razones técnicas de caché.</li>
-    <li><strong>Mensajes directos:</strong> hasta que el usuario los elimine o elimine su cuenta.</li>
+    <li><strong>Contenido publicado (fotos, videos, posts, reseñas, historias):</strong> hasta que el usuario lo elimine o elimine su cuenta. Tras la eliminación, pueden persistir copias residuales en cachés y copias de seguridad técnicas durante un máximo de 30 días, exclusivamente por limitaciones técnicas de propagación y respaldo; estas copias no se usan para ningún otro fin y se purgan en el siguiente ciclo. Las interacciones integradas en conversaciones de otros usuarios (por ejemplo, comentarios en posts ajenos) pueden conservarse desvinculadas de tu identidad.</li>
+    <li><strong>Mensajes directos:</strong> hasta que el usuario los elimine. Al eliminar tu cuenta, tus mensajes se eliminan o se desvinculan de tu identidad; los que enviaste pueden permanecer visibles para los demás participantes de la conversación, sin asociación con tus datos personales.</li>
     <li><strong>Registros de actividad y logs de acceso (IP, timestamps):</strong> 90 días, luego eliminados o anonimizados.</li>
-    <li><strong>Datos de ubicación GPS:</strong> no almacenamos historial de ubicación en nuestros servidores. La ubicación se procesa en tiempo real y no se guarda.</li>
-    <li><strong>Datos de publicidad (AdMob):</strong> gestionados directamente por Google según sus políticas. Consultar <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>.</li>
+    <li><strong>Datos de ubicación GPS en tiempo real:</strong> no almacenamos historial de rutas continuas. Los eventos puntuales de ubicación (check-ins, misiones completadas, reseñas) quedan registrados en tu perfil como parte de tu historial de actividad.</li>
+    <li><strong>Documentación de verificación comercial:</strong> la documentación enviada para reclamar un perfil de comercio (identificaciones, comprobantes fiscales, etc.) se conserva hasta 30 días después de completado el proceso de verificación, luego se elimina de forma segura.</li>
+    <li><strong>Datos de publicidad (AdMob):</strong> gestionados directamente por Google según sus políticas.</li>
     <li><strong>Datos de soporte y comunicaciones con nosotros:</strong> 2 años desde el último contacto.</li>
   </ul>
   <p>Si eliminás tu cuenta, procederemos a eliminar o anonimizar tus datos personales dentro de los 30 días, salvo obligación legal de conservarlos.</p>
@@ -120,6 +132,17 @@
   <h2>7.A Datos biométricos</h2>
   <p>AstroExplorer no recopila, procesa ni almacena datos biométricos (reconocimiento facial, huella dactilar, escaneo de iris u otros identificadores biológicos). Si en el futuro incorporamos alguna función biométrica, obtendremos tu consentimiento explícito previamente.</p>
 
+  <h2>7.B Privacidad y moderación de mensajería directa</h2>
+  <div class="highlight">
+    <p>Los mensajes directos entre usuarios son privados. AstroExplorer puede utilizar herramientas automatizadas de escaneo técnico, únicamente para la detección de patrones de spam, malware, phishing o contenido ilegal. <strong>Ningún miembro de nuestro personal lee el contenido de tus chats privados</strong>, salvo en los siguientes supuestos:</p>
+    <ul>
+      <li>Que uno de los participantes del chat envíe un reporte formal por acoso o infracción de los Términos</li>
+      <li>Que exista un requerimiento judicial firmado por autoridad competente</li>
+      <li>Para mitigar una amenaza inminente a la integridad física de una persona</li>
+    </ul>
+    <p>En cualquiera de estos casos, el acceso queda registrado en nuestros logs internos y se limita estrictamente al contenido relevante para la situación.</p>
+  </div>
+
   <h2>8. Privacidad de menores</h2>
   <div class="highlight">
     <p><strong>La App no está dirigida a menores de 13 años.</strong> No recopilamos intencionalmente información de menores de 13 años. Si tenés menos de 13 años, no uses la App. Si somos conscientes de que hemos recopilado datos de un menor de 13 años sin consentimiento parental verificable, los eliminaremos inmediatamente.</p>
@@ -143,7 +166,7 @@
     <li>Derecho a oponerte al procesamiento</li>
     <li>Derecho a restringir el procesamiento</li>
     <li>Derecho a presentar una queja ante la autoridad supervisora de tu país</li>
-    <li>Base legal para el procesamiento: ejecución del contrato (servicios), consentimiento (ubicación, publicidad) e interés legítimo (seguridad).</li>
+    <li>Base legal para el procesamiento: ejecución del contrato (servicios), consentimiento (ubicación, publicidad) e interés legítimo (seguridad, prevención de fraude). Para los datos de verificación comercial (identificaciones, comprobantes fiscales), la base es nuestro interés legítimo en la prevención de fraude y suplantación y, cuando corresponda, el cumplimiento de obligaciones legales.</li>
   </ul>
 
   <h3>Usuarios de California, EE.UU. (CCPA/CPRA):</h3>
@@ -169,9 +192,6 @@
 
   <p>Para ejercer cualquiera de estos derechos, escribinos a <a href="mailto:contacto@astroexplorer.app">contacto@astroexplorer.app</a>. Responderemos dentro de los 30 días.</p>
 
-  <h2>10. Transferencias internacionales de datos</h2>
-  <p>Tus datos pueden ser procesados en servidores ubicados en Estados Unidos u otros países a través de nuestros proveedores (Google/Firebase). Estos proveedores cumplen con marcos de transferencia internacional reconocidos, incluyendo las Cláusulas Contractuales Estándar de la UE.</p>
-
   <h2>9.A Decisiones automatizadas</h2>
   <p>En cumplimiento del Artículo 22 del GDPR y normativa equivalente, te informamos que:</p>
   <ul>
@@ -179,6 +199,9 @@
     <li>Las decisiones automatizadas que produzcan efectos legales significativos sobre vos (como la suspensión de tu cuenta) serán revisadas por un humano si así lo solicitás escribiendo a <a href="mailto:contacto@astroexplorer.app">contacto@astroexplorer.app</a>.</li>
     <li>Tenés derecho a oponerte a decisiones tomadas exclusivamente de forma automatizada y a solicitar intervención humana.</li>
   </ul>
+
+  <h2>10. Transferencias internacionales de datos</h2>
+  <p>Tus datos pueden ser procesados en servidores ubicados en Estados Unidos u otros países a través de nuestros proveedores (Google/Firebase). Estos proveedores cumplen con marcos de transferencia internacional reconocidos, incluyendo las Cláusulas Contractuales Estándar de la UE.</p>
 
   <h2>11. Cookies y tecnologías similares</h2>
   <p>La App móvil no utiliza cookies de navegador. Utilizamos identificadores de dispositivo y tecnologías similares para analítica y publicidad, según se describe en la sección de AdMob.</p>
