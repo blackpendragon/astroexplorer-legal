@@ -25,7 +25,7 @@
 <div class="container">
 
   <h1>Política de Privacidad</h1>
-  <p class="subtitle">AstroExplorer — astroexplorer.app<br>Última actualización: 18 de agosto de 2026</p>
+  <p class="subtitle">AstroExplorer — astroexplorer.app<br>Última actualización: 28 de agosto de 2026</p>
 
   <div class="highlight">
     <p>Esta Política de Privacidad describe cómo AstroExplorer ("nosotros", "nos" o "nuestro") recopila, usa, almacena y protege tu información personal cuando utilizas nuestra aplicación móvil AstroExplorer (la "App"). Al usar la App, aceptás los términos de esta Política.</p>
@@ -71,6 +71,16 @@
     <li><strong>Datos de rendimiento:</strong> logs de errores y fallos de la App para diagnóstico técnico. No contienen contenido personal.</li>
   </ul>
   <p><strong>Lo que NO recopilamos:</strong> contactos del teléfono, historial de llamadas, SMS, historial de navegación web, apps instaladas, datos del portapapeles ni datos de otras apps.</p>
+
+  <h3>2.3 Datos generados por nuevas funciones</h3>
+  <ul>
+    <li><strong>Reacciones galácticas:</strong> almacenamos tu reacción (estrella, cohete, luna, planeta, cometa, luna negra, asteroide) por publicación en el campo <code>reactions: {uid: tipo}</code>. Las reacciones son públicas y visibles para todos los usuarios.</li>
+    <li><strong>Vistas de video:</strong> registramos un documento por usuario por video por día en <code>posts/{postId}/views/{uid}</code> con la fecha de la vista, para evitar el conteo múltiple y uso fraudulento. Solo se registra si viste al menos 5 segundos del video.</li>
+    <li><strong>Posts guardados:</strong> almacenamos los posts que guardás en la subcolección <code>users/{uid}/saved</code>. Esta información es privada y solo accesible para vos.</li>
+    <li><strong>Historial de preferencias:</strong> registramos un historial de categorías de lugares que visitaste, completaste en planes o guardaste en <code>users/{uid}/planHistory</code>, para personalizar futuras recomendaciones. Este historial es privado y no se comparte con otros usuarios.</li>
+    <li><strong>Presencia en línea:</strong> registramos tu estado de conexión (<code>isOnline</code>) y última actividad (<code>lastSeen</code>) en tiempo real para mostrar el indicador de presencia en el chat. Este estado es visible para los usuarios que tienen una conversación abierta con vos.</li>
+    <li><strong>Planes de salida compartidos:</strong> cuando compartís un plan por chat, el contenido del plan (lugares, categorías, tiempo, presupuesto) se almacena como un mensaje especial en la conversación, visible para ambos participantes.</li>
+  </ul>
 
   <h3>2.3 Información de terceros</h3>
   <p><strong>Inicio de sesión con Google:</strong> podés crear una cuenta o iniciar sesión en AstroExplorer usando tu cuenta de Google. Al hacerlo, Google nos proporciona tu nombre para mostrar, dirección de correo electrónico y foto de perfil pública, según los permisos que otorgues en el momento del acceso. Esta información se almacena en tu perfil de AstroExplorer y se usa exclusivamente para identificarte y personalizar tu experiencia. No accedemos a tu contraseña de Google ni a ningún otro dato de tu cuenta más allá de los mencionados. El uso de Google Sign In está sujeto también a la <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidad de Google</a> y a los <a href="https://policies.google.com/terms" target="_blank">Términos de Servicio de Google</a>.</p>
